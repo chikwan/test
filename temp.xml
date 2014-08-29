@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="example"> 
+  <Require feature="opensocial-0.9"/>
+  <Require feature="views"/>
+  <Require feature="dynamic-height"/>
+  <Require feature="pubsub"/>
+  <Require feature="osapi"/>
+  </ModulePrefs>
+  <Content type="html" view="profile">
+     <![CDATA[
+       Hello, profile!
+     ]]>
+  </Content>
+
+  <Content type="html" view="home">
+     <![CDATA[        
+       Hello, home!
+     ]]>
+  </Content>  
+</Module>
+
